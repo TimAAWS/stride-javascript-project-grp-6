@@ -10,6 +10,8 @@ function showNextImage() {
 }
 
 
+//use double quotation when defining a value (""), just as a security best practices to prevent any "middleman attack" possibility  [Adewumi]
+// The website front page color might be a little to bright (deem it a little if possible)
 
 const imagesNH = ["kbidikarImages/fall_NH4.webp", "kbidikarImages/fall_NH2.jpeg", "kbidikarImages/fall_NH3.jpeg"];
 const imagesVT = ["kbidikarImages/fall_VT1.webp", "kbidikarImages/fall_VT4.png", "kbidikarImages/fall_VT3.jpeg"];
