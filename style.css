@@ -56,3 +56,14 @@ a{
   color: #C0392B;
 
 }
+
+.title {
+  border-style: double;
+  border-width: 10px;
+  text-align: center;
+  border-color: darkgreen;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: black;
+  color: green;
+}
