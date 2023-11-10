@@ -1,5 +1,6 @@
 let button = document.querySelector('button');
 button.addEventListener('click', function(){
+// TODO use props to pull region-specific images
     url = 'https://www.universalorlando.com/hhn/en/us/haunted-houses';
     window.open(url, '_blank');
 })
