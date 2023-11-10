@@ -1,0 +1,58 @@
+.container {
+  text-align: center;
+  margin-top: 100px;
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: #FFA500;
+  color: #333;
+  font-family: Arial, sans-serif;
+}
+
+a{
+  padding: 25px;
+  background-color: #FFD580;
+  border-radius: 10px;
+  text-decoration: none;
+  color:#333;
+}
+
+#timoadco a:hover{
+  padding: 25px;
+  background-color: lightblue;
+  border-radius: 10px;
+  text-decoration: none;
+  font-size: 30px;
+  color:yellow;
+}
+#kbidikar a:hover{
+  padding: 25px;
+  background-color: orangered;
+  border-radius: 10px;
+  text-decoration: none;
+  font-size: 30px;
+  color:white;
+} 
+
+#luchiap a:hover{
+  padding: 25px;
+  background-color: green;
+  border-radius: 10px;
+  text-decoration: none;
+  font-size: 30px;
+  color:darkorange;
+}
+
+#czumaran a:hover{
+  padding: 25px;
+  background-color: black;
+  border-radius: 10px;
+  text-decoration: none;
+  font-size: 30px;
+  color: #C0392B;
+
+}

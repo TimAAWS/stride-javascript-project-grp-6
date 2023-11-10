@@ -1,0 +1,174 @@
+body {
+  background-color: beige;
+}
+
+#beerMugClack {
+  display: inline;
+  width: 10vw;
+  position: absolute;
+  left: 0em;
+}
+
+#intro {
+  display: block;
+  top: 20%;
+}
+
+#banner {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+#wiki {
+  font-size: smaller;
+  display: block;
+  margin-left: 10vw;
+  margin-right: 10vw;
+}
+
+
+#home {
+  position: absolute;
+  width: 3vw;
+  top: 1em;
+  right: 0em;
+}
+
+#homeText {
+  display: inline-block;
+  position: absolute;
+  right: 8vw;
+  animation-name: homeMove;
+  animation-duration: 3s;
+  animation-delay: 0;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes homeMove {
+  0% {
+    right: 8vw;
+  }
+
+  50% {
+    right: 3.25vw;
+  }
+
+  100% {
+    right: 8vw;
+  }
+
+}
+
+
+/* Slideshow */
+
+#slides {
+  margin: 100px auto 20px auto;
+  border: 10px solid #4C4C4C;
+  width: 80vw;
+  height: 20vw;
+  position: relative;
+
+}
+
+#content {
+  width: 200vw;
+  height: 20vw;
+  position: relative;
+}
+
+#content img {
+  position: absolute;
+  left: 40vw;
+  top: 0;
+
+}
+
+#myimage {
+  width: 20vw;
+  height: 20vw;
+
+}
+
+p {
+  text-align: center;
+}
+
+
+#links {
+  width: 420px;
+  display: flex;
+  margin: auto;
+}
+
+#links a {
+  display: block;
+  flex: 1;
+  background: blue;
+  height: 50px;
+  line-height: 50px;
+  color: yellow;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+#links a:hover {
+  background: #A51D1F;
+  color: #fff;
+}
+
+
+.fadeinimg {
+  animation: fadein 2s, spin .75s linear;
+}
+
+.movingImg {
+  animation-name: imgMove;
+  animation-duration: 10s;
+  animation-delay: 0;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+    width: 1vw;
+    height: 1vw;
+  }
+
+  to {
+    transform: rotate(360deg);
+    width: 20vw;
+    height: 20vw;
+  }
+}
+
+@keyframes imgMove {
+  0% {
+    right: 50%;
+  }
+
+  50% {
+    right: -25%;
+  }
+
+  100% {
+    right: 50%;
+  }
+
+}
